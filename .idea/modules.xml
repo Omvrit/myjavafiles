@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" filepath="$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soritng/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/Soritng/MergeSort/MergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOps/OOps.iml" filepath="$PROJECT_DIR$/OOps/OOps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soritng/QuickSortCode/QuickSort.iml" filepath="$PROJECT_DIR$/Soritng/QuickSortCode/QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soritng/Soritng.iml" filepath="$PROJECT_DIR$/Soritng/Soritng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Threads.iml" filepath="$PROJECT_DIR$/Threads/Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/printingPattern/compositePattern/compositePattern.iml" filepath="$PROJECT_DIR$/printingPattern/compositePattern/compositePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjavafiles.iml" filepath="$PROJECT_DIR$/myjavafiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/printingPattern/printingPattern.iml" filepath="$PROJECT_DIR$/printingPattern/printingPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problemoftheday/problemoftheday.iml" filepath="$PROJECT_DIR$/problemoftheday/problemoftheday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variables/variables.iml" filepath="$PROJECT_DIR$/variables/variables.iml" />
+    </modules>
+  </component>
+</project>
