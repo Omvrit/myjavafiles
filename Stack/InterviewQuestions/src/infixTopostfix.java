@@ -25,24 +25,25 @@ public class infixTopostfix {
                     st.push(chr);
                 }
                 else{
+
                     postfix.append(st.pop());
                     st.push(chr);
                 }
 
             }
-            else if(chr=='*'|| chr=='/'){
+            else if(chr=='*' || chr=='/'){
                 if(st.isEmpty()||st.peek()=='('||st.peek()=='+'||st.peek()=='-'){
                     st.push(chr);
                 }
                 else{
-                    postfix.append(chr);
+                    postfix.append(st.pop());
                     st.push(chr);
                 }
 
             }
 
         }
-        while(st.size()!=0){
+        while(!st.isEmpty()){
             postfix.append(st.pop());
         }
         System.out.println(postfix);
