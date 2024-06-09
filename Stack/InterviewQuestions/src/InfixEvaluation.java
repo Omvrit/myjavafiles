@@ -3,6 +3,9 @@ import java.util.*;
 
 public class InfixEvaluation {
     public static void eval(Stack<Integer> st, char op){
+        if(op=='('|| op==')'){
+            return;
+        }
         int val2 = st.pop();
         int val1 = st.pop();
         if(op=='-'){
@@ -32,16 +35,19 @@ public class InfixEvaluation {
                 val.push(ch-48);
             }
             else{
-                if(op.isEmpty()){
+                if(op.isEmpty()||chr=='('||op.peek()=='('){
                     op.push(chr);
                 }
                 else{
                     if(chr == '+' || chr=='-'){
-                       eval(val,op.pop());
-                       op.push(chr);
+                        if(op.peek()!='('){
+                            eval(val,op.pop());
+                        }
+
+                        op.push(chr);
                     }
                     if(chr=='*' || chr=='/'){
-                        if(op.peek()=='+'||op.peek()=='-'){
+                        if(op.peek()=='+'||op.peek()=='-'||op.peek()=='('){
                             op.push(chr);
                         }
                         else{
@@ -49,6 +55,14 @@ public class InfixEvaluation {
                             op.push(chr);
                         }
                     }
+
+                    if(chr==')'){
+                        while(op.peek()!='('){
+                            eval(val,op.pop());
+                        }
+                        op.pop();
+                    }
+
                 }
             }
 
