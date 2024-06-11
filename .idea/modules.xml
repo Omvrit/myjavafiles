@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.iml" filepath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Dequeue/Dequeue.iml" filepath="$PROJECT_DIR$/Queue/Dequeue/Dequeue.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" filepath="$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
@@ -13,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soritng/QuickSortCode/QuickSort.iml" filepath="$PROJECT_DIR$/Soritng/QuickSortCode/QuickSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Queue/STL/STL.iml" filepath="$PROJECT_DIR$/Queue/STL/STL.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soritng/Soritng.iml" filepath="$PROJECT_DIR$/Soritng/Soritng.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
