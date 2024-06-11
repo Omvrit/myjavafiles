@@ -1,3 +1,5 @@
+import Node.node;
+
 public class RemovingDuplicatesFromSortedLinkedList {
     public static void removeduplicates(node head){
         node ptr = head;

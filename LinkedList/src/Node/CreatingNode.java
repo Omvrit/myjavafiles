@@ -1,9 +1,5 @@
-class node{
-    int val;
-    node next;
+package Node;
 
-    public node(int val){this.val = val;}
-}
 public class CreatingNode {
 
     public static void main(String[] args) {

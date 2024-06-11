@@ -1,4 +1,4 @@
-
+import Node.node;
 
 class SLL{//singly linked list
     node head;

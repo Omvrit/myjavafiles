@@ -1,5 +1,7 @@
+import Node.node;
+
 public class RotateLinkedList {
-    public static node RotateLList(node head,int k ){
+    public static node RotateLList(node head, int k ){
 
          node dummy = head;
          node fp = head;
