@@ -16,7 +16,7 @@ public class ReverseStack {
         }
         int top = st.pop();
         recursive(st);
-        pushAtBottom(st,top);
+        st.push(top);
 
     }
     public static void main(String[] args) {

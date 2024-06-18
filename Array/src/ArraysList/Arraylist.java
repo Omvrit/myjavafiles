@@ -1,14 +1,22 @@
+package ArraysList;
+
 import java.util.ArrayList;
 
 public class Arraylist {
     public static void main(String[] args) {
-
+        int ar[] = new int[10];
         int n = 10;
-        ArrayList<Integer> arr = new ArrayList<Integer>();
         for (int i = 0; i < n ; i++ ){
-            arr.add(i);
+            ar[i] = i;
         }
-       for(int ele:arr){
+
+        //<Integer> is wrapper class
+        ArrayList<Integer> arr = new ArrayList<>();
+
+
+
+
+       for(int ele:ar){
            System.out.println(ele);
        }
     }

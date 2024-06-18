@@ -1,11 +1,17 @@
 class cqueue
 {
-    int size = 5;
+    int size =0;
     int qsize=0;
 
-    int []q = new int[size];
+
     int front =-1;
     int rear =-1;
+    cqueue(int k){
+        this.size  = k;
+        int []q = new int[k];
+
+    }
+    int []q = new int[size];
     void enqueue(int val) throws Exception {
         if(qsize==size){
             throw new Exception("Queue is full");
@@ -65,6 +71,7 @@ class Cqueuell{
     int size = 0;
     node front = null;
     node rear = null;
+
 
     void enqueue(int val) {
         node temp = new node();
@@ -133,19 +140,28 @@ class Cqueuell{
 }
 public class CircularQueue {
     public static void main(String[] args) throws Exception {
-        Cqueuell q = new Cqueuell();
-        q.enqueue(10);
-//        q.enqueue(20);
-//        q.enqueue(30);
-//        q.enqueue(40);
-//        q.enqueue(50);
-//        q.enqueue(60);
-        q.display();
+//        Cqueuell q = new Cqueuell();
+//        q.enqueue(10);
+////        q.enqueue(20);
+////        q.enqueue(30);
+////        q.enqueue(40);
+////        q.enqueue(50);
+////        q.enqueue(60);
+//        q.display();
+//        q.dequeue();
+////        q.enqueue(40);
+//        q.display();
+//        q.dequeue();
+//        System.out.println(q.size);
+        cqueue q = new cqueue(5);
+        q.enqueue(20);
+        q.enqueue(30);
+        q.enqueue(40);
+        q.enqueue(50);
+        q.enqueue(60);
         q.dequeue();
-//        q.enqueue(40);
         q.display();
-        q.dequeue();
-        System.out.println(q.size);
+
 
 
 

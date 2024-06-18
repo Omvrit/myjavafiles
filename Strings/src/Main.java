@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
       String str= new String("om");
-      String str2 = str.strip();
-        char c = str.charAt(1);
-        System.out.println((int )c);
+      String number = "12345";
+      number.substring(1);
+      int num = -1*Integer.parseInt(number);
 
 
     }

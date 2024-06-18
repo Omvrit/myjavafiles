@@ -24,10 +24,11 @@ public class InfixEvaluation {
 
     }
     public static void main(String[] args) {
-        Stack<Integer> val = new Stack<>();
-        Stack<Character> op = new Stack<>();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
+        Stack<Integer> val = new Stack<>();
+        Stack<Character> op = new Stack<>();
+
         for(int i =0 ;i<str.length();i++){
             int ch = str.charAt(i);
             char chr = str.charAt(i);

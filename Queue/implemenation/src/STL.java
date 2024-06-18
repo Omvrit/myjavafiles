@@ -29,6 +29,7 @@ public class STL {
         q.add(3);
         q.add(4);
         q.add(6);q.add(5);
+        q.peek();
         revdisplay(q);
         display(q);
 
