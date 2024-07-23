@@ -1,8 +1,7 @@
-import java.util.Scanner;
 class ZeroError extends Exception{
     String msg;
-    ZeroError() {
-    msg = "ZeroError";
+    ZeroError(String msg) {
+    super(msg);
 
     }
 
@@ -12,7 +11,7 @@ public class Main {
         int i = -10;
         
         for (int j = i; j < 10; j++) {
-            if(j==0) throw new ZeroError();
+            if(j==0) throw new ZeroError("saale zero se divide kar ditta");
             System.out.println(500 / j);
 
 

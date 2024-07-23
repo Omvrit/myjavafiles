@@ -37,3 +37,6 @@ public class Abstraction {
         System.out.println(m1.add());
     }
 }
+/* java abstraction imposes compulsion on the subclasses to
+ have atleast that much functionality(Methods)
+ */

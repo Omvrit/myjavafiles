@@ -18,7 +18,7 @@ public class ImplementRunnableUsingLambda {
 //        t.start();
 
 
-        ///// Syntax for lambda
+        ///// Syntax for lambda function
 
         Runnable t1 =()-> {
             for (int i = 0; i < 10; i++) {
@@ -27,6 +27,7 @@ public class ImplementRunnableUsingLambda {
         };
         //here we have basically imagined That it is certain that "This only will be there".
         Thread t = new Thread(t1);
+        t.start();
 
 
 

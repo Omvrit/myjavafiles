@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedFeaturesInJava/AdvancedFeaturesInJava.iml" filepath="$PROJECT_DIR$/AdvancedFeaturesInJava/AdvancedFeaturesInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedFeaturesInJava/src/AllAboutLambdas/AllAboutLambdas.iml" filepath="$PROJECT_DIR$/AdvancedFeaturesInJava/src/AllAboutLambdas/AllAboutLambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.iml" filepath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/Dequeue/Dequeue.iml" filepath="$PROJECT_DIR$/Queue/Dequeue/Dequeue.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/DoublyLinkedList/DoublyLinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedFeaturesInJava/src/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/AdvancedFeaturesInJava/src/ExceptionHandling/ExceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" filepath="$PROJECT_DIR$/Stack/InterviewQuestions/InterviewQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOps/LearningInneransNestedClass/LearningInneransNestedClass.iml" filepath="$PROJECT_DIR$/OOps/LearningInneransNestedClass/LearningInneransNestedClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/Sorting/MergeSort/MergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOps/OOps.iml" filepath="$PROJECT_DIR$/OOps/OOps.iml" />
@@ -21,7 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/Set/Set.iml" filepath="$PROJECT_DIR$/Set/Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/Threads.iml" filepath="$PROJECT_DIR$/Threads/Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedFeaturesInJava/src/Threads/Threads.iml" filepath="$PROJECT_DIR$/AdvancedFeaturesInJava/src/Threads/Threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/printingPattern/compositePattern/compositePattern.iml" filepath="$PROJECT_DIR$/printingPattern/compositePattern/compositePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/myjavafiles.iml" filepath="$PROJECT_DIR$/myjavafiles.iml" />
